@@ -26,7 +26,7 @@ var quotes = [
     ' Protect orphans (2:220)',
     'Do not consume one another’s wealth unjustly (4:29)',
     ' Try for settlement between people (49:9)',
-    ' Avoid suspicion (49:12)'
+    ' Avoid suspicion (49:12)',
     'Do not spy and backbite (2:283)',
     'Do not spy or backbite (49:12)',
     'Spend wealth in charity (57:7)',
@@ -100,8 +100,6 @@ var quotes = [
     'Seek forgiveness of Allah. He is Forgiving and Merciful (73:20)',
     'Do not repel one who asks (93:10)'
 ];
-
-
 function newQuote(){
     var randomNumber = Math.floor (Math.random() * (quotes.length));
     document.getElementById('quoteDisplay').innerHTML =quotes[randomNumber];
